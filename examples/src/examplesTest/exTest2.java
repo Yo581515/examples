@@ -32,7 +32,8 @@ public class exTest2 {
 
     @Test
     public void testAdd() {
-        assertEquals(7, e1.add(a, b));
+    	a=4;
+        assertEquals(8, e1.add(a, b));
     }
 
     @Test
